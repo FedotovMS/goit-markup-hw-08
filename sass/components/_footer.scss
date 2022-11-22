@@ -3,6 +3,16 @@
     padding-bottom: 60px;
     background-color: #2f303a;
 }
+
+.footer__container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__socials {
+    margin-left: 70px;
+}
+
 .footer__socials .footer__title,
 .signup__box .footer__title {
     display: inline-block;

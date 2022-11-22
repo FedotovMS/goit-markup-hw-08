@@ -31,11 +31,16 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: var(--timing);
-}
 
-.customers__link:hover,
-.customers__link:focus {
-    border: 1px solid var(--link-hover-color);
+    &:hover,
+    &:focus {
+            border: 1px solid var(--link-hover-color);
+        }
+
+    &:hover .customers__icon,
+    &:focus .customers__icon {
+                    fill: var(--link-hover-color);
+                }            
 }
 
 .customers__icon {
@@ -46,17 +51,6 @@
     transition-timing-function: var(--timing);
 }
 
-.customers__link:hover .customers__icon,
-.customers__link:focus .customers__icon {
-    fill: var(--link-hover-color);
-}
 
-/* footer */
-.footer__container {
-    display: flex;
-    align-items: baseline;
-}
 
-.footer__socials {
-    margin-left: 70px;
-}
+
