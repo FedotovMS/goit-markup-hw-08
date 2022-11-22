@@ -1,0 +1,34 @@
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    display: inline-block;
+    
+    &:focus {
+            color: var(--link-hover-color);
+        }
+}
+
+.logo__color-a {
+    color: var(--link-hover-color);
+}
+
+.logo__color-b {
+    color: #000000;
+}
+
+.logo-white {
+    @include logo__color-b(#ffffff);
+}
+
+//logo footer   
+
+.bottom-logo {
+    margin-bottom: 20px;
+}
+// .logo-white {
+//     color: #ffffff
+// }

@@ -1,0 +1,21 @@
+.filter__section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.filter {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    /* padding-bottom: 34px; */
+    /* padding-top: 94px; */
+    margin: 0;
+    margin-bottom: 50px;
+    gap: 8px;
+}
+
+.filter__item {
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+}
