@@ -4,4 +4,8 @@
     @include respond-to('mobile') {
         padding-bottom: 60px;
     }
+    @media screen and(max-width: 479px) {
+        padding-bottom: 60px;
+        
+    }
 }

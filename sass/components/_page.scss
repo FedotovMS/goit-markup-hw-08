@@ -19,11 +19,11 @@
         margin-top: 60px;
         text-align:center;
     }
-    @media screen and (max-width: 479px) {
-        flex-wrap: wrap;
-        margin-top: 60px;
-        text-align: center;
-    }
+        @media screen and (max-width: 479px) {
+            flex-wrap: wrap;
+            margin-top: 60px;
+            text-align: center;
+        }
 }
 
 .page__title {
