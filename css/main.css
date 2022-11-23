@@ -43,17 +43,17 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .container {
     width: 480px;
   }
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .container {
     width: 768px;
   }
 }
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
   }
@@ -62,7 +62,7 @@ img {
 .section {
   padding-bottom: 94px;
 }
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .section {
     padding-bottom: 60px;
   }
@@ -427,7 +427,7 @@ button {
   list-style-type: none;
   padding: 0px;
 }
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .page__list {
     flex-wrap: wrap;
     margin-top: 60px;
@@ -461,7 +461,7 @@ button {
 .page__list > .page__item:nth-last-child(1) {
   margin-right: 0;
 }
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .page__item {
     margin-right: 0;
     width: 450px;
@@ -553,7 +553,7 @@ button {
   padding-top: 94px;
   background-color: #F5F4FA;
 }
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .team {
     padding-top: 60px;
   }
@@ -575,7 +575,7 @@ button {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .team__list {
     flex-wrap: wrap;
     align-items: center;
@@ -606,7 +606,7 @@ button {
   margin-bottom: 50px;
   color: var(--primary-title-color);
 }
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .team__title {
     margin-bottom: 30px;
   }
@@ -674,7 +674,7 @@ button {
   fill: #ffffff;
 }
 
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .customers {
     display: inline-block;
     width: 480px;
@@ -693,7 +693,7 @@ button {
   margin: 0;
   margin-bottom: 50px;
 }
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .customers__title {
     margin-bottom: 30px;
   }
@@ -705,7 +705,7 @@ button {
   align-items: center;
   justify-content: center;
 }
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .customers__list {
     width: 480px;
     flex-wrap: wrap;
@@ -741,7 +741,7 @@ button {
 .customers__link:hover .customers__icon, .customers__link:focus .customers__icon {
   fill: var(--link-hover-color);
 }
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .customers__link {
     width: calc(100% - 60px)/2;
     flex-wrap: wrap;
@@ -767,7 +767,7 @@ button {
   display: flex;
   align-items: baseline;
 }
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .footer__container {
     display: block;
     width: 480px;
@@ -793,7 +793,7 @@ button {
 .footer__socials {
   margin-left: 70px;
 }
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .footer__socials {
     width: 480px;
     margin-left: 0;
@@ -872,7 +872,7 @@ address {
 .signup__box {
   margin-left: 93px;
 }
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .signup__box {
     margin-left: 0;
     width: 450px;
@@ -907,7 +907,7 @@ address {
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .signup__input {
     margin-right: 0;
     margin-bottom: 20px;
@@ -923,7 +923,7 @@ address {
 .signup__form {
   display: flex;
 }
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .signup__form {
     display: block;
     width: 450px;

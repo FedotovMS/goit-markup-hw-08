@@ -1,5 +1,5 @@
 .customers {
-    @include respond-to('mobile') {
+    @include phone {
             display: inline-block;
             width: 480px;
             padding-top: 60px;
