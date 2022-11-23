@@ -467,12 +467,7 @@ button {
 .section-activities {
   padding-top: 0px;
 }
-@media (min-width: 480px) {
-  .section-activities {
-    display: none;
-  }
-}
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 767px) {
   .section-activities {
     display: none;
   }
