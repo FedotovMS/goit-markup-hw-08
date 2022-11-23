@@ -467,6 +467,16 @@ button {
 .section-activities {
   padding-top: 0px;
 }
+@media (min-width: 480px) {
+  .section-activities {
+    display: none;
+  }
+}
+@media screen and (max-width: 479px) {
+  .section-activities {
+    display: none;
+  }
+}
 
 .activities {
   text-align: center;
@@ -489,16 +499,6 @@ button {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
-}
-@media (min-width: 480px) {
-  .activities__list {
-    display: none;
-  }
-}
-@media screen and (max-width: 479px) {
-  .activities__list {
-    display: none;
-  }
 }
 
 .activities__item {

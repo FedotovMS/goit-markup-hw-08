@@ -1,5 +1,12 @@
 .section-activities {
     padding-top: 0px;
+    @include respond-to('mobile') {
+            display: none;
+        }
+    
+        @media screen and (max-width: 479px) {
+            display: none;
+        }
 }
 
 .activities {
@@ -23,14 +30,6 @@
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
-
-    @include respond-to('mobile')   {
-        display: none;
-    }
-
-    @media screen and (max-width: 479px) {
-            display: none   ;
-        }
 }
 
 .activities__item {
