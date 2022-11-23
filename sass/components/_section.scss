@@ -1,3 +1,7 @@
 .section {
     padding-bottom: 94px;
+
+    @include respond-to('mobile') {
+        padding-bottom: 60px;
+    }
 }

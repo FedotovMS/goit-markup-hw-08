@@ -47,6 +47,11 @@ img {
 .section {
   padding-bottom: 94px;
 }
+@media (min-width: 480px) {
+  .section {
+    padding-bottom: 60px;
+  }
+}
 
 header {
   border-bottom: 1px solid #ECECEC;
@@ -396,9 +401,66 @@ button {
   border-radius: 4px;
 }
 
+.page__list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0px;
+}
+@media (min-width: 480px) {
+  .page__list {
+    flex-wrap: wrap;
+    margin-top: 60px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 479px) {
+  .page__list {
+    flex-wrap: wrap;
+    margin-top: 60px;
+    text-align: center;
+  }
+}
+
+.page__title {
+  color: var(--primary-title-color);
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.page__item {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  margin-right: 30px;
+  line-height: 1.7;
+}
+.page__list > .page__item:nth-last-child(1) {
+  margin-right: 0;
+}
+@media (min-width: 480px) {
+  .page__item {
+    margin-right: 0;
+    width: 450px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .page__item {
+    margin-right: 0;
+    width: 450px;
+  }
+}
+
 .page__icon {
   --color1: #212121;
   --color2: #2196F3;
+}
+
+.section-activities {
+  padding-top: 0px;
 }
 
 .activities {
@@ -408,6 +470,8 @@ button {
 
 .activities__item {
   display: inline-block;
+  max-width: 370px;
+  max-height: 294px;
   margin: 0;
   padding: 0;
 }
