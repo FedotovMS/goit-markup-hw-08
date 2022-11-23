@@ -46,10 +46,10 @@
                 align-items: center;
                 justify-content: center;
             .team__item {
-                    width: 450px;
+                    max-width: 450px;
             
                     & img {
-                        width: 450px;
+                        max-width: 450px;
                     }
                 }   
         }

@@ -1,3 +1,11 @@
+.customers {
+    @include respond-to('mobile') {
+            display: inline-block;
+            width: 480px;
+            padding-top: 60px;
+            text-align: center;
+        }
+}
 .customers__title {
     font-weight: 700;
     font-size: 36px;
@@ -7,6 +15,12 @@
     color: var(--primary-title-color);
     margin: 0;
     margin-bottom: 50px;
+
+    @include respond-to('mobile') {
+    
+            margin-bottom: 30px;;
+        
+        }
 }
 
 .customers__list {
@@ -17,9 +31,9 @@
     gap: 30px;
 
         @include respond-to('mobile') {
-            
-            flex-wrap: wrap ;
-        
+            width: 480px;
+            flex-wrap: wrap;
+            margin-right: 0;
         }
        
 }
@@ -28,7 +42,7 @@
             display: flex;
             flex-wrap: wrap;
             padding: 0;
-    
+            
     }   
 }
 
