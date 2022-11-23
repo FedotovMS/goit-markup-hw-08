@@ -901,7 +901,7 @@ address {
 @media screen and (max-width: 479px) {
   .signup__form {
     flex-wrap: wrap;
-    width: 480px;
+    width: 100%;
     justify-content: center;
   }
 }/*# sourceMappingURL=main.css.map */
