@@ -28,12 +28,13 @@
     padding: 0;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    // gap: 30px;
 
         @include respond-to('mobile') {
             width: 480px;
             flex-wrap: wrap;
             margin-right: 0;
+            margin: -15px;
         }
        
 }
@@ -69,7 +70,14 @@
     &:hover .customers__icon,
     &:focus .customers__icon {
                     fill: var(--link-hover-color);
-                }            
+                }    
+        @include respond-to('mobile') {
+            width: calc(100% - 2 * 30px) / 2;
+            flex-wrap: wrap;
+            margin-right: 0;
+            margin: 15px;
+    
+        }
 }
 
 .customers__icon {

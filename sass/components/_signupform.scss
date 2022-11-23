@@ -2,7 +2,7 @@
     margin-left: 93px;
     @include respond-to('mobile') {
             margin-left: 0;
-            width: 480px;
+            width: 450px;
             flex-basis: 100%;
         }
                 @media screen and(max-width: 479px) {
@@ -35,18 +35,29 @@
             line-height: calc(20 / 16);
             letter-spacing: 0.03em;
         }
+                @include respond-to('mobile') {
+                    margin-right: 0;
+                    margin-bottom: 20px;
+                }
+                @media screen and(max-width: 479px) {
+                    margin-right: 0;
+                    margin-bottom: 20px;
+                }
 }
 
 .signup__form {
     display: flex;
 
     @include respond-to('mobile') {
-        flex-wrap: wrap;
-        width: 480px;
+        // flex-wrap: wrap;
+        display: block;
+        width: 450px;
         justify-content: center;
+        
     }
     @media screen and(max-width: 479px) {
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
+            display: block;
             width: 100%;
             justify-content: center;
     }
