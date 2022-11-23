@@ -1,140 +1,137 @@
-// button {
-//     cursor: pointer;
-// }
+button {
+    cursor: pointer;
+}
 
-// .button {
-//     background: var(--link-hover-color);
-//     min-width: 216px;
-//     height: 50px;
-//     top: 430px;
-//     font-family: 'Roboto';
-//     font-weight: 700;
-//     font-size: 16px;
-//     line-height: 1.9;
-//     display: inline-block;
-//     border-radius: 4px;
-//     padding: 10px 34px;
-//     letter-spacing: 0.06em;
-//     color: #ffffff;
-//     margin: 0 auto;
-//     text-align: center;
-//     border: transparent;
-//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+.button {
+    background: var(--link-hover-color);
+    min-width: 216px;
+    height: 50px;
+    top: 430px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 34px;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    border: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-// }
+}
 
-// //modal close btn
+//modal close btn
 
-// .modal__close-btn {
-//     position: absolute;
-//     display: flex;
+.modal__close-btn {
+    position: absolute;
+    display: flex;
 
-//     width: 30px;
-//     height: 30px;
-//     border-radius: 50%;
-//     cursor: pointer;
-//     padding: 0;
-//     background-color: transparent;
-//     align-items: center;
-//     justify-content: center;
-//     right: 8px;
-//     top: 8px;
-//     border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    right: 8px;
+    top: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 
-//     &:hover .modal__icon-btn,
-//     &:focus .modal__icon-btn {
-//             fill: var(--link-hover-color);
-//         }
-// }
+    &:hover .modal__icon-btn,
+    &:focus .modal__icon-btn {
+            fill: var(--link-hover-color);
+        }
+}
 
-// .modal__icon-btn {
-//     left: 50%;
-//     top: 50%;
-//     transition: fill 250ms var(--timing);
-// }
+.modal__icon-btn {
+    left: 50%;
+    top: 50%;
+    transition: fill 250ms var(--timing);
+}
 
-// //modal form SEND button
+//modal form SEND button
 
-// .form__btn {
-//     width: 200px;
-//     height: 50px;
-//     color: #ffffff;
-//     background-color: #2196F3;
-//     border-color: transparent;
-//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-//     border-radius: 4px;
+.form__btn {
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #2196F3;
+    border-color: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 
-//     font-family: 'Roboto';
-//     font-style: normal;
-//     font-weight: 700;
-//     font-size: 16px;
-//     line-height: calc(30/16);
-//     letter-spacing: 0.06em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    letter-spacing: 0.06em;
 
-//     transition-property: background-color;
-//     transition-duration: 250ms;
-//     transition-timing-function: var(--timing);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing);
    
-//     &:focus,
-//     &:hover {
-//             background-color: #188CE8;
-//         }
-// }
+    &:focus,
+    &:hover {
+            background-color: #188CE8;
+        }
+}
 
-// //SIGNUP BTN
+//SIGNUP BTN
 
-// .signup__btn {
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     width: 200px;
-//     height: 50px;
-//     margin-right: 0;
+.signup__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    margin-right: 0;
 
-//     color: #ffffff;
-//     background-color: var(--link-hover-color);
-//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-//     border-radius: 4px;
-//     border: transparent;
-//     font-family: 'Roboto';
-//     font-style: normal;
-//     font-weight: 700;
-//     font-size: 16px;
-//     line-height: 2;
-//     letter-spacing: 0.06em;
+    color: #ffffff;
+    background-color: var(--link-hover-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: transparent;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 
-// }
-// .signup__icon {
-//     fill: #ffffff;
-//     margin-left: 10px;
-// }
+}
+.signup__icon {
+    fill: #ffffff;
+    margin-left: 10px;
+}
 
-// //FILTER portfolio page
+//FILTER portfolio page
 
-// .filter__btn {
-//     font-family: 'Roboto';
-//     font-weight: 500;
-//     font-size: 16px;
-//     line-height: 1.6;
-//     background-color: #F5F4FA;
-//     border-radius: 4px;
-//     border: 0;
-//     padding: 6px 25px 6px 25px;
+.filter__btn {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    border: 0;
+    padding: 6px 25px 6px 25px;
 
-//     transition-property: color, background-color, box-shadow;
-//     transition-duration: 250ms;
-//     transition-timing-function: var(--timing);
+    transition-property: color, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing);
 
-//     &:hover,
-//     &:focus {
-//             background-color: var(--link-hover-color);
-//             color: #FFFFFF;
-//             box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-//                 0px 1px 2px rgba(0, 0, 0, 0.08),
-//                 0px 2px 2px rgba(0, 0, 0, 0.12);
+    &:hover,
+    &:focus {
+            background-color: var(--link-hover-color);
+            color: #FFFFFF;
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+                0px 1px 2px rgba(0, 0, 0, 0.08),
+                0px 2px 2px rgba(0, 0, 0, 0.12);
     
-//         }
-// }
-
-
-
+        }
+}
