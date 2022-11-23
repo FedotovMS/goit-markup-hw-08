@@ -584,6 +584,12 @@ button {
     align-items: center;
     justify-content: center;
   }
+  .team__list .team__item {
+    width: 450px;
+  }
+  .team__list .team__item img {
+    width: 450px;
+  }
 }
 
 .team__title {

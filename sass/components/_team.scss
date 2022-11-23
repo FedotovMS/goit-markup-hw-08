@@ -45,7 +45,13 @@
             flex-wrap: wrap;
                 align-items: center;
                 justify-content: center;
-    
+            .team__item {
+                    width: 450px;
+            
+                    & img {
+                        width: 450px;
+                    }
+                }   
         }
 }
 
