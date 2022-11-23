@@ -16,7 +16,7 @@
     margin: 0;
     margin-bottom: 50px;
 
-    @include respond-to('mobile') {
+    @include phone {
     
             margin-bottom: 30px;;
         
@@ -30,7 +30,7 @@
     justify-content: center;
     // gap: 30px;
 
-        @include respond-to('mobile') {
+        @include phone {
             width: 480px;
             flex-wrap: wrap;
             margin-right: 0;
@@ -71,7 +71,7 @@
     &:focus .customers__icon {
                     fill: var(--link-hover-color);
                 }    
-        @include respond-to('mobile') {
+        @include phone {
             width: calc(100% - 2 * 30px) / 2;
             flex-wrap: wrap;
             margin-right: 0;

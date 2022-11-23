@@ -1,6 +1,6 @@
 .signup__box {
     margin-left: 93px;
-    @include respond-to('mobile') {
+    @include phone {
             margin-left: 0;
             width: 450px;
             flex-basis: 100%;
@@ -35,7 +35,7 @@
             line-height: calc(20 / 16);
             letter-spacing: 0.03em;
         }
-                @include respond-to('mobile') {
+                @include phone {
                     margin-right: 0;
                     margin-bottom: 20px;
                 }
@@ -48,7 +48,7 @@
 .signup__form {
     display: flex;
 
-    @include respond-to('mobile') {
+    @include phone {
         // flex-wrap: wrap;
         display: block;
         width: 450px;

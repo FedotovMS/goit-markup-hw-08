@@ -14,7 +14,7 @@
     list-style-type: none;
     padding: 0px;
 
-    @include respond-to('mobile') {
+    @include phone {
         flex-wrap: wrap;
         margin-top: 60px;
         text-align:center;
@@ -47,7 +47,7 @@
             
         }
     
-    @include respond-to('mobile') {
+    @include phone {
              margin-right: 0;
              width: 450px;
         }

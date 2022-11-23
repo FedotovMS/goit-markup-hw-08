@@ -1,7 +1,7 @@
 .section {
     padding-bottom: 94px;
 
-    @include respond-to('mobile') {
+    @include phone {
         padding-bottom: 60px;
     }
     @media screen and(max-width: 479px) {
