@@ -227,12 +227,14 @@ button {
   margin-bottom: 20px;
 }
 
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 .hero__section {
   padding-top: 200px;
   padding-bottom: 200px;
-}
-
-.hero {
   max-width: 1600px;
   background-color: #2F303A;
   background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bckgrd.jpeg);
@@ -244,7 +246,7 @@ button {
   align-items: center;
   margin: 0 auto;
 }
-.hero h1 {
+.hero__section h1 {
   margin-top: 0px;
   color: #ffffff;
   text-align: center;
@@ -690,6 +692,7 @@ button {
 }
 
 .customers__title {
+  display: inline-block;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -705,6 +708,11 @@ button {
   }
 }
 
+.footer__container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .customers__list {
   display: flex;
   padding: 0;
@@ -713,7 +721,6 @@ button {
 }
 @media screen and (min-width: 480px) {
   .customers__list {
-    display: flex;
     width: 480px;
     flex-wrap: wrap;
     margin-right: 0;
@@ -750,7 +757,7 @@ button {
 }
 @media screen and (min-width: 480px) {
   .customers__link {
-    width: calc(100% - 60px)/2;
+    width: 210px;
     flex-wrap: wrap;
     margin-right: 0;
     margin: 15px;
@@ -802,7 +809,7 @@ button {
 }
 @media screen and (min-width: 480px) {
   .footer__socials {
-    width: 480px;
+    width: 450px;
     margin-left: 0;
   }
 }
@@ -823,6 +830,13 @@ button {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
+}
+@media screen and (min-width: 480px) {
+  .footer__socials .footer__title,
+.signup__box .footer__title {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 .footer__social-list {
@@ -889,7 +903,7 @@ address {
 @media screen and (max-width: 479px) {
   .signup__box {
     margin-left: 0;
-    flex-basis: 100%;
+    flex-basis: 80%;
   }
 }
 
