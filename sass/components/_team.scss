@@ -41,13 +41,13 @@
             
         }
     
-        @media screen and(max-width: 479px) {
-            flex-wrap: wrap;
+        @media screen and (max-width: 479px) {
+                // flex-wrap: wrap;
+                display: block;
                 align-items: center;
                 justify-content: center;
             .team__item {
                     
-            
                     & img {
                         width: 100%;
                     }
