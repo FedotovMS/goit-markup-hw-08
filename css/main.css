@@ -761,7 +761,7 @@ button {
 }
 @media screen and (max-width: 479px) {
   .footer__container {
-    flex-basis: 100%;
+    width: 479px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
