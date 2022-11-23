@@ -5,6 +5,11 @@
             width: 480px;
             flex-basis: 100%;
         }
+                @media screen and(max-width: 479px) {
+                    margin-left: 0;
+                    // width: 480px;
+                    flex-basis: 100%;
+                }
 }
 
 .signup__input {
@@ -40,5 +45,9 @@
         width: 480px;
         justify-content: center;
     }
-    
+    @media screen and(max-width: 479px) {
+        flex-wrap: wrap;
+            width: 480px;
+            justify-content: center;
+    }
 }

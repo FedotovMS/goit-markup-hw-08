@@ -759,6 +759,16 @@ button {
     text-align: center;
   }
 }
+@media screen and (max-width: 479px) {
+  .footer__container {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+  }
+}
 
 .footer__socials {
   margin-left: 70px;
@@ -766,6 +776,12 @@ button {
 @media (min-width: 480px) {
   .footer__socials {
     width: 480px;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 479px) {
+  .footer__socials {
+    flex-basis: 100%;
     margin-left: 0;
   }
 }
@@ -843,6 +859,12 @@ address {
     flex-basis: 100%;
   }
 }
+@media screen and (max-width: 479px) {
+  .signup__box {
+    margin-left: 0;
+    flex-basis: 100%;
+  }
+}
 
 .signup__input {
   width: 358px;
@@ -870,6 +892,13 @@ address {
   display: flex;
 }
 @media (min-width: 480px) {
+  .signup__form {
+    flex-wrap: wrap;
+    width: 480px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 479px) {
   .signup__form {
     flex-wrap: wrap;
     width: 480px;
