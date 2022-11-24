@@ -1,9 +1,5 @@
 .section-activities {
     padding-top: 0px;
-
-        @media screen and (max-width: 767px) {
-            display: none;
-        }
 }
 
 .activities {
@@ -31,8 +27,8 @@
 
 .activities__item {
     display: inline-block;
-    max-width: 370px;
-    max-height: 294px;
+    width: 370px;
+    height: 294px;
     margin: 0;
     padding: 0;
 }
@@ -53,7 +49,6 @@
     width: 100%;
     min-height: 70px;
     background-color: rgba(47, 48, 58, 0.8);
-
 }
 
 .activities__text {

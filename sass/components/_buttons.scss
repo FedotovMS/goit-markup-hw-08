@@ -103,11 +103,6 @@ button {
     line-height: 2;
     letter-spacing: 0.06em;
 
-    @include phone {
-        margin-right: auto;
-        margin-left: auto;
-    }
-
 }
 .signup__icon {
     fill: #ffffff;
@@ -140,3 +135,6 @@ button {
     
         }
 }
+
+
+

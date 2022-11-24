@@ -1,18 +1,8 @@
 .team {
-    
     justify-content: center;
     text-align: center;
     padding-top: 94px;
     background-color: #F5F4FA;
-
-    @include phone {
-            padding-top: 60px;
-        }
-    
-        @media screen and(max-width: 479px) {
-            padding-top: 60px;
-    
-        }
 }
 
 .team__list {
@@ -23,36 +13,8 @@
 
     &>.team__item {
             background-color: #FFFFFF;
-            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
-                        0px 1px 1px rgba(0, 0, 0, 0.14), 
-                        0px 2px 1px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
             border-radius: 0px 0px 4px 4px;
-        }
-    
-        @include phone {
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            .team__item {
-                width: 450px;
-                & img {
-                    width: 100%;
-                }
-            }
-            
-        }
-    
-        @media screen and (max-width: 479px) {
-                // flex-wrap: wrap;
-                display: block;
-                align-items: center;
-                justify-content: center;
-            .team__item {
-                    
-                    & img {
-                        width: 100%;
-                    }
-                }   
         }
 }
 
@@ -62,15 +24,6 @@
     text-align: center;
     margin-bottom: 50px;
     color: var(--primary-title-color);
-    
-    @include phone {
-            margin-bottom: 30px;
-        }
-    
-        @media screen and(max-width: 479px) {
-            margin-bottom: 30px;
-    
-        }
 }
 
 .team__card-title {

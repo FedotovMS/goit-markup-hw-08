@@ -1,5 +1,4 @@
 .footer {
-    
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2f303a;
@@ -8,39 +7,10 @@
 .footer__container {
     display: flex;
     align-items: baseline;
-    
-
-    @include phone {
-            display: block;
-            width: 480px;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-            text-align: center;
-        }
-        @media screen and(max-width:479px) {
-            display: block;     
-                width: 479px;
-                flex-wrap: wrap;
-                align-items: center;
-                justify-content: center;
-                margin: 0;
-                text-align: center;
-        }
 }
 
 .footer__socials {
     margin-left: 70px;
-
-    @include phone {
-        width: 450px;    
-        margin-left: 0;
-        }
-                @media screen and(max-width:479px) {
-                    flex-basis: 100%;
-                    margin-left: 0;
-                }
 }
 
 .footer__socials .footer__title,
@@ -53,65 +23,4 @@
     text-transform: uppercase;
     color: #ffffff;
     margin-bottom: 20px;
-
-    @include phone {
-        margin-right: auto;
-        margin-left: auto;
-    }
 }   
-
-//footer socials
-.footer__social-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0px;
-    gap: 10px;
-}
-
-.footer__social-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    background-color: rgba(255, 255, 255, 0.1);
-    color: #ffffff;
-    border-radius: 50%;
-
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: var(--timing);
-
-    &:hover,
-    &:focus {
-            background-color: var(--link-hover-color);
-        }
-}
-// //footer contacts
-
-address {
-    padding: 0px;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    color: #ffffff;
-}
-
-.contacts-list .contacts-item {
-    display: inline-block;
-    text-decoration: none;
-    color: #ffffff60;
-    margin-bottom: 9px;
-}
-
-.footer-contacts {
-    list-style-type: none;
-    font-size: 14px;
-    line-height: 1.7;
-    margin: 0px;
-    padding: 0px;
-}
