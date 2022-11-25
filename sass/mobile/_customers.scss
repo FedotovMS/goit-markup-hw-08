@@ -1,0 +1,61 @@
+.customers__title {
+    margin-bottom: 30px;
+    
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--primary-title-color);
+}
+
+.customers__list {
+    display: block;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+
+    // gap: 30px;
+
+}
+
+.customers__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;
+    width: 170px;
+    height: 92px;
+    
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing);
+
+    &:hover,
+    &:focus {
+        border: 1px solid var(--link-hover-color);
+    }
+
+    &:hover .customers__icon,
+    &:focus .customers__icon {
+        fill: var(--link-hover-color);
+    }
+
+    @media screen and (max-width:767px) {
+        width: 210px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.customers__icon {
+    fill: currentColor;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing);
+}
