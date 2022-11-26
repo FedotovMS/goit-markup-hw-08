@@ -10,8 +10,9 @@
     padding: 0px;
 
     & .nav__item+.nav__item {
-            margin-left: 50px;
-        }
+        margin-left: 50px;
+    }
+
     & .nav__link {
         display: block;
         padding-top: 32px;
@@ -22,20 +23,23 @@
         font-size: 14px;
         line-height: 1.1;
         letter-spacing: 0.02em;
-    
+
         position: relative;
-    
+
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: var(--timing);
-        }
+    }
+
     & .nav__link--current {
         color: var(--link-hover-color);
     }
 }
+
 .section {
     padding-top: 94px;
 }
+
 .nav__link:hover,
 .nav__link:focus {
     color: var(--link-hover-color);
@@ -53,9 +57,10 @@
     background-color: var(--link-hover-color);
 
     transition: color var(--animation-speed) var(--timing);
+
     &::after .nav__link:hover {
-            color: var(--link-hover-color);
-        }
+        color: var(--link-hover-color);
+    }
 }
 
 
