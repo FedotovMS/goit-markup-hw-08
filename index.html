@@ -15,65 +15,65 @@
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/main.min.css">
-    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    
     <title>Головна</title>
 </head>
 <body>
     <header>
-        
+        <div class="container navigation__container">
                     <!--логотип-->
                 <nav class="navi">
                     <a href="./index.html" class="logo">
                             <span class="logo__color-a">Web</span>
                             <span class="logo__color-b">Studio</span>
                     </a>
-                    <div class="container main-nav">
+                   
+                    <div class="main-nav">
                         <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
                             <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                                    clip-rule="evenodd"></path>
+                                    <use href="./images/icons.svg#icon-menu"></use>
                             </svg>
                         </button>
 
-                <!--навігація-->
-                    <div class="menu-content">
+                      <!-- навігація-->
+                        <div class="menu-content">
                             <ul class="nav list">
                                 <li class="nav__item"><a class="nav__link nav__link--current" href="./index.html">Студія</a></li>
                                 <li class="nav__item"><a class="nav__link" href="./portfolio.html">Портфоліо</a></li>
                                 <li class="nav__item"><a class="nav__link" href="">Контакти</a></li>
                             </ul>
                     
-                    <!--contacts-->
+                         <!--contacts-->
                     
-                        <ul class="contacts list">
-                            <li class="contacts__item">
-                                <a class="cont-email contacts__link"
-                                    href="mailto:info@devstudio.com"
-                                    rel="nofollow noopener noreferrer">
+                            <ul class="contacts list">
+                                 <li class="contacts__item">
+                                    <a class="cont-email contacts__link"
+                                        href="mailto:info@devstudio.com"
+                                        rel="nofollow noopener noreferrer">
                                     <svg class="contacts__icon" width="16" height="12">
                                         <use href="./images/icons.svg#icon-envelope">
                                         </use>
                                     </svg>
                                     info@devstudio.com
                                 </a>
-                            </li>
-                            <li class="contacts__item">
-                                <a href="tel:00380961111111" class="phone contacts__link">
-                                    <svg class="contacts__icon" width="10" height="16">
-                                        <use href="./images/icons.svg#icon-smartphone">
-                                        </use>
-                                    </svg>
-                                    +38 096 111 11 11
-                                </a>
-                            </li>
-                        </ul>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="tel:00380961111111" class="phone contacts__link">
+                                        <svg class="contacts__icon" width="10" height="16">
+                                            <use href="./images/icons.svg#icon-smartphone">
+                                            </use>
+                                        </svg>
+                                        +38 096 111 11 11
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </nav>
         </div>
     </header>
     <main>
-        <!--hero-->
+        <!-- hero -->
     
     <section class="section hero hero__section">
         <h1>Ефективні рішення для<br> вашого бізнесу</h1>
@@ -541,18 +541,17 @@
     <div class="menu-container js-menu-container" id="mobile-menu">
         <button class="menu-toggle js-close-menu">
             <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                <path fill-rule="evenodd"
-                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                    clip-rule="evenodd"></path>
+                    <use fill="black" href="./images/icons.svg#icon-close-black-18dp"></use>
             </svg>
         </button>
-    
-        <div class="mobile-menu">
-            <ul class="nav list">
+      
+    </svg>
+        
+            <ul class="nav list mobile-menu">
                 <li class="nav__item"><a class="nav__link nav__link--current" href="./index.html">Студія</a></li>
                 <li class="nav__item"><a class="nav__link" href="./portfolio.html">Портфоліо</a></li>
                 <li class="nav__item"><a class="nav__link" href="">Контакти</a></li>
-            </ul>
+            </ul> -->
         
             <!--contacts-->
         
@@ -567,7 +566,7 @@
                     </a>
                 </li>
                 <li class="contacts__item">
-                    <a href="tel:00380961111111" class="phone contacts__link">
+                    <a href="tel:00380961111111" class="cont-phone contacts__link">
                         <svg class="contacts__icon" width="10" height="16">
                             <use href="./images/icons.svg#icon-smartphone">
                             </use>
@@ -576,7 +575,13 @@
                     </a>
                 </li>
             </ul>
-        </div>
+            <ul class="menu__socials">
+                <li class="menu__socials-item"><a class="menu__socials-link" href="">Instagram</a></li>
+                <li class="menu__socials-item"><a class="menu__socials-link" href="">Twitter</a></li>
+                <li class="menu__socials-item"><a class="menu__socials-link" href="">Facebook</a></li>
+                <li class="menu__socials-item"><a class="menu__socials-link" href="">LinkedIn</a></li>
+            </ul>
+        
     </div>
     <script
       defer

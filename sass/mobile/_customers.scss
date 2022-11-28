@@ -8,6 +8,10 @@
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--primary-title-color);
+    
+    @media screen and (min-width: $desktop) {
+            font-style: 36px;
+        }
 }
 
 .customers__list {
@@ -16,13 +20,18 @@
     align-items: center;
     justify-content: center;
 
-    // gap: 30px;
+    @media screen and (min-width: $mobile) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
 
 }
 
 .customers__link {
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
     justify-content: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -30,6 +39,9 @@
     width: 170px;
     height: 92px;
     
+    @media screen and (min-width: $mobile) {
+            margin-bottom: 0;
+        }
 
     transition-property: color;
     transition-duration: 250ms;

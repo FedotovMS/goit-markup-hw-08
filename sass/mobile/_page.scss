@@ -1,10 +1,18 @@
 .page__list {
     display: block;
-    justify-content: center;
+    
     list-style-type: none;
     padding: 0px;
-}
 
+    @media screen and (min-width: $tablet) {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        }
+       
+}
 .page__item {
     display: inline-block;
     flex-basis: 100%;
@@ -12,10 +20,17 @@
     font-size: 14px;
     line-height: 1.7;
 
-    // .page__list>&:nth-last-child(1) {
-    //     margin-right: 0;
-}
+    
+    @media screen and (min-width: 768px) {
+            flex-basis: 354px;
+            
+        }
+        @media screen and (min-width: $desktop) {
+            flex-basis: 270px;
+        }
+                
 
+}
 .page__icons-block {
     display: flex;
     background-color: #F5F4FA;
@@ -24,6 +39,7 @@
     align-items: center;
     margin-bottom: 30px;
     border-radius: 4px;
+
 }
 
 .page__title {
