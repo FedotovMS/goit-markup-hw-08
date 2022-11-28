@@ -91,6 +91,10 @@
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 12px;
+    }
 }
 
 

@@ -89,7 +89,12 @@ address {
         background-color: var(--link-hover-color);
     }
 }
-
+.footer__tablet {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    gap: 165px;
+}
 // .signup__box {
 //     margin-left: 93px;
 // }
@@ -100,6 +105,12 @@ address {
     text-align: center;
     align-items: center;
     justify-content: center;
+
+    @media screen and (min-width: $tablet) {
+    
+            flex-wrap: nowrap;
+            flex-direction: column;
+        }
 }
 
 .signup__input {
@@ -107,6 +118,9 @@ address {
     height: 50px;
     margin-bottom: 20px;
     // padding-left: 16px;
+    @media screen and (min-width: $tablet) {
+        width: 450px;
+    }
 
     color: rgba(255, 255, 255, 0.6);
 
