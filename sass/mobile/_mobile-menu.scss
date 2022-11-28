@@ -43,7 +43,7 @@
     display: flex;
     width: 100vw;
     height: 100vh;
-    padding: 32px;
+    padding: 48px 40px;
     background-color: #ffffff;
     z-index: 999;
 
@@ -83,17 +83,15 @@
 }
 
 .menu__socials-link:nth-last-child(1) {
-   
+padding-left: 10px;
         padding-right: 10px;
         border-right: 1px solid rgba(33, 33, 33, 0.2);
-        
-    
 }
 
-.menu__socials-link:nth-last-child(n+1) {
-    @media screen {
-        padding-left: 10px;
-    }
+.menu__socials-link:first-child {
+    
+        padding-left: 0px;
+    
 }
 .menu__socials-link {
     font-family: 'Roboto';

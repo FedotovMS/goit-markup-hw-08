@@ -5,10 +5,6 @@
     background-color: #2f303a;
 }
 
-.footer__container {
-    text-align: center;
-}
-
 .logo-white {
     @include logo__color-b(#ffffff);
 }
@@ -90,10 +86,12 @@ address {
     }
 }
 .footer__tablet {
+    @media screen and (min-width: $tablet) {
     display: flex;
     align-items: top;
     justify-content: center;
     gap: 165px;
+    }
 }
 // .signup__box {
 //     margin-left: 93px;
@@ -107,10 +105,37 @@ address {
     justify-content: center;
 
     @media screen and (min-width: $tablet) {
-    
-            flex-wrap: nowrap;
             flex-direction: column;
         }
+        @media screen and (min-width: $desktop) {
+            flex-wrap: nowrap;
+            flex-direction: row;
+            align-items: center;
+        }
+}
+.footer__container {
+    text-align: center;
+    @media screen and (min-width: $tablet) {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+    @media screen and (min-width: $desktop) {
+        justify-content: left;
+        gap: 93px;
+        text-align: left;
+    }
+}
+.footer-info,
+.footer__socials {
+    @media screen and (min-width:768px) {
+        width:  calc((100% - 3 * 60px) / 2);
+        margin-bottom: 0;
+        width: fit-content;
+
+    }
 }
 
 .signup__input {
@@ -121,10 +146,15 @@ address {
     @media screen and (min-width: $tablet) {
         width: 450px;
     }
+    @media screen and (min-width: $desktop) {
+        width: 358px;
+        margin-bottom: 0;
+        margin-right: 12px;
+        }
 
     color: rgba(255, 255, 255, 0.6);
 
-    // margin-right: 12px;
+    // 
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -167,5 +197,4 @@ address {
 .signup__icon {
     fill: #ffffff;
     margin-left: 10px;
-}
-
+}       
