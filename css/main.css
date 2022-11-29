@@ -452,7 +452,7 @@ img {
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../images/bckgrd/img_3200.jpg);
+    background-image: url(../images/bckgrd/bg_lg@2x.jpg);
   }
 }
 .hero h1 {
