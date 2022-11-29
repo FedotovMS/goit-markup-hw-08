@@ -45,7 +45,7 @@
                         }
                     }
                                         // desktop bg
-                                         @media screen and (min-width: $tablet) {
+                                         @media screen and (min-width: $desktopt) {
                                              background-image: linear-gradient(to bottom,
                                                      rgba(47, 48, 58, 0.4),
                                                      rgba(47, 48, 58, 0.4)),
