@@ -82,6 +82,9 @@
     
 }
 
+@media screen and (min-width: $mobile) {
+    
+
 .menu__socials-link:not(last-child) {
         padding-right: 10px;
         border-right: 1px solid rgba(33, 33, 33, 0.2);
@@ -91,13 +94,11 @@
         //     border-right: none;
 
         // }
-}
-
-
+    }
 .menu__socials-link:not(first-child) {
     padding-left: 10px;
+    }
 }
-
 .menu__socials-link {
     font-family: 'Roboto';
         font-style: normal;
