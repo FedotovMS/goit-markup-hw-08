@@ -160,12 +160,15 @@ img {
 }
 
 @media screen and (min-width: 480px) {
-  .menu__socials-link:not(last-child) {
+  .menu__socials-item:nth-child(-n+3) {
     padding-right: 10px;
     border-right: 1px solid rgba(33, 33, 33, 0.2);
   }
-  .menu__socials-link:not(first-child) {
+  .menu__socials-item {
     padding-left: 10px;
+  }
+  .menu__socials-item:first-child {
+    padding-left: 0;
   }
 }
 .menu__socials-link {
@@ -1264,11 +1267,16 @@ header {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.7142857143;
   letter-spacing: 0.03em;
   color: #757575;
   text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .agreement {
+    font-size: 14px;
+  }
 }
 
 .agreement__link {

@@ -115,20 +115,21 @@
     }
 }
 
-
-
-
 .agreement {
     display: inline-block;
     margin-bottom: 30px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
     color: #757575;
     text-align: center;
+
+    @media screen and (min-width: $desktop) {
+        font-size: 14px;
+    }
 }
 
 .agreement__link {
