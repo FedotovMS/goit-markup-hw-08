@@ -24,23 +24,31 @@
     @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            background-image: url(../images/bckgrd/img_768.jpg);
+            background-image: linear-gradient(to bottom,
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)), 
+                    url(../images/bckgrd/img_768.jpg);
         }
         // tablet bg
         @media screen and (min-width: $tablet) {
             background-image: linear-gradient(to bottom,
                         rgba(47, 48, 58, 0.4),
                         rgba(47, 48, 58, 0.4)),
-                    url(../images/bckgrd/img_960.jpg);
+                        url(../images/bckgrd/img_960.jpg);
                     // tablet retina bg
         @media (min-device-pixel-ratio: 2),
             (min-resolution: 192dpi),
             (min-resolution: 2dppx) {
-                background-image: url(../images/bckgrd/img_1536.jpg);
+                background-image: linear-gradient(to bottom,
+                        rgba(47, 48, 58, 0.4),
+                        rgba(47, 48, 58, 0.4)), 
+                        url(../images/bckgrd/img_1536.jpg);
             }
         }
                 //  desktop bg
                 @media screen and (min-width: $desktop) {
+                    padding-top: 200px;
+                    padding-bottom: 200px;
                     background-image: linear-gradient(to bottom,
                             rgba(47, 48, 58, 0.4),
                             rgba(47, 48, 58, 0.4)),
@@ -50,7 +58,10 @@
                     @media (min-device-pixel-ratio: 2),
                     (min-resolution: 192dpi),
                     (min-resolution: 2dppx) {
-                        background-image: url(../images/bckgrd/bg_lg@2x.jpg);
+                        background-image: linear-gradient(to bottom,
+                                rgba(47, 48, 58, 0.4),
+                                rgba(47, 48, 58, 0.4)),
+                                url(../images/bckgrd/bg_lg@2x.jpg);
                     }
                 }
 
