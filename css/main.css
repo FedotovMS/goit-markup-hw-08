@@ -85,6 +85,12 @@ img {
   align-items: center;
   justify-content: space-between;
 }
+@media screen and (max-width: 767px) {
+  .navi {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
 
 .menu-toggle {
   min-height: 40px;
@@ -248,6 +254,11 @@ img {
 
 .section {
   padding-top: 94px;
+}
+@media screen and (max-width: 1199px) {
+  .section {
+    padding-top: 60px;
+  }
 }
 
 .nav__link:hover,
@@ -686,10 +697,21 @@ button {
   margin-top: 0px;
   margin-bottom: 10px;
 }
+@media screen and (min-width: 768px) {
+  .page__title {
+    text-align: left;
+  }
+}
 
 .page__icon {
   --color1: #212121;
   --color2: #2196F3;
+}
+
+@media screen and (max-width: 767px) {
+  .page__item:not(last-child) {
+    margin-bottom: 30px;
+  }
 }
 
 .section-activities {
@@ -780,6 +802,7 @@ button {
 @media screen and (min-width: 1200px) {
   .team__title {
     font-size: 36px;
+    margin-bottom: 50px;
   }
 }
 
@@ -804,6 +827,7 @@ button {
 @media screen and (min-width: 768px) {
   .team__list > .team__item {
     width: 354px;
+    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -896,6 +920,7 @@ button {
 @media screen and (min-width: 1200px) {
   .customers__title {
     font-size: 36px;
+    margin-bottom: 50px;
   }
 }
 
@@ -997,7 +1022,7 @@ address {
 .contacts-list .contacts-item {
   display: inline-block;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.3764705882);
+  color: rgba(255, 255, 255, 0.6);
   margin-bottom: 12px;
   margin-top: 12px;
 }

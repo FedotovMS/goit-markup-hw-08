@@ -50,9 +50,19 @@
     text-align: center;
     margin-top: 0px;
     margin-bottom: 10px;
+    @media screen and (min-width: $tablet) {
+        text-align: left;
+        
+    }
 }
 
 .page__icon {
     --color1: #212121;
     --color2: #2196F3;
+}
+
+.page__item:not(last-child) {
+    @media screen and (max-width: 767px) {
+        margin-bottom: 30px;
+    }
 }
