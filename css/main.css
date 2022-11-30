@@ -40,7 +40,13 @@ ul {
   list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0px;
 }
 
@@ -186,7 +192,7 @@ img {
   font-size: 18px;
   line-height: 1.2222222222;
   letter-spacing: 0.02em;
-  color: #2196F3;
+  color: #2196f3;
 }
 
 @media screen and (min-width: 768px) {
@@ -411,7 +417,7 @@ img {
   top: 50%;
   left: 50%;
   padding: 40px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transform: translate(-50%, -50%) scale(1);
@@ -438,7 +444,7 @@ img {
   max-width: 1600px;
   padding-top: 118px;
   padding-bottom: 118px;
-  background-color: #2F303A;
+  background-color: #2f303a;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -567,7 +573,7 @@ button {
   width: 200px;
   height: 50px;
   color: #ffffff;
-  background-color: #2196F3;
+  background-color: #2196f3;
   border-color: transparent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -582,7 +588,7 @@ button {
   transition-timing-function: var(--timing);
 }
 .form__btn:focus, .form__btn:hover {
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 .filter__btn {
@@ -590,7 +596,7 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   border-radius: 4px;
   border: 0;
   padding: 6px 25px 6px 25px;
@@ -600,7 +606,7 @@ button {
 }
 .filter__btn:hover, .filter__btn:focus {
   background-color: var(--link-hover-color);
-  color: #FFFFFF;
+  color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
@@ -680,7 +686,7 @@ button {
 
 .page__icons-block {
   display: flex;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   justify-content: center;
   height: 120px;
   align-items: center;
@@ -705,7 +711,7 @@ button {
 
 .page__icon {
   --color1: #212121;
-  --color2: #2196F3;
+  --color2: #2196f3;
 }
 
 @media screen and (max-width: 767px) {
@@ -779,13 +785,13 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .team {
   justify-content: center;
   text-align: center;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .team__title {
@@ -820,7 +826,7 @@ button {
 .team__list > .team__item {
   margin-bottom: 30px;
   max-width: 450px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -886,7 +892,7 @@ button {
   width: 44px;
   height: 44px;
   background-color: #ffffff;
-  color: #AFB1B8;
+  color: #afb1b8;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
@@ -895,7 +901,7 @@ button {
   transition-timing-function: var(--timing);
 }
 .social__link:hover, .social__link:focus {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 .social__icon {
@@ -943,9 +949,9 @@ button {
   align-items: center;
   margin-bottom: 30px;
   justify-content: center;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
-  color: #AFB1B8;
+  color: #afb1b8;
   width: 170px;
   height: 92px;
   transition-property: color;
@@ -1190,7 +1196,7 @@ address {
 }
 
 header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 .form__title {
@@ -1216,10 +1222,10 @@ header {
   transition: border 250ms var(--timing);
 }
 .form__input:focus, .form__input:hover {
-  border: 1px solid #2196F3;
+  border: 1px solid #2196f3;
 }
 .form__input:focus ~ .form__icon, .form__input:hover ~ .form__icon {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .form__icon {
@@ -1243,7 +1249,7 @@ header {
   margin-bottom: 20px;
 }
 .form__comment:focus, .form__comment:hover {
-  border: 1px solid #2196F3;
+  border: 1px solid #2196f3;
 }
 
 .form__comment::placeholder {
@@ -1371,7 +1377,7 @@ header {
 
 .cards__item .cards__content {
   display: inline-block;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   width: 290px;
   margin: 0px;
   padding-top: 20px;

@@ -1,80 +1,79 @@
 .customers__title {
-    margin-bottom: 30px;
-    
-    text-align: center;
+  margin-bottom: 30px;
 
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: var(--primary-title-color);
-    
-    @media screen and (min-width: $desktop) {
-            font-size: 36px;
-            margin-bottom: 50px;
-        }
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+
+  @media screen and (min-width: $desktop) {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
 }
 
 .customers__list {
-    display: block;
-    padding: 0;
-    align-items: center;
-    justify-content: center;
+  display: block;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
 
-    @media screen and (min-width: $mobile) {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
-    }
+  @media screen and (min-width: $mobile) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
 }
 
 .customers__link {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-    justify-content: center;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    color: #AFB1B8;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  justify-content: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: #afb1b8;
+  width: 170px;
+  height: 92px;
+
+  @media screen and (min-width: $mobile) {
+    margin-bottom: 0;
+  }
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing);
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--link-hover-color);
+  }
+
+  &:hover .customers__icon,
+  &:focus .customers__icon {
+    fill: var(--link-hover-color);
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 210px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media screen and (min-width: $tablet) {
+    width: 226px;
+  }
+  @media screen and (min-width: $desktop) {
     width: 170px;
-    height: 92px;
-    
-    @media screen and (min-width: $mobile) {
-            margin-bottom: 0;
-        }
-    
-
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: var(--timing);
-
-    &:hover,
-    &:focus {
-        border: 1px solid var(--link-hover-color);
-    }
-
-    &:hover .customers__icon,
-    &:focus .customers__icon {
-        fill: var(--link-hover-color);
-    }
-
-    @media screen and (max-width:767px) {
-        width: 210px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    @media screen and (min-width: $tablet) {
-            width: 226px;
-        }
-    @media screen and (min-width: $desktop) {
-            width: 170px;
-        }
+  }
 }
 
 .customers__icon {
-    fill: currentColor;
+  fill: currentColor;
 
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: var(--timing);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing);
 }

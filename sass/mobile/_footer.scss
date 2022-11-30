@@ -1,200 +1,198 @@
 .footer__section {
-    padding: 0;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: #2f303a;
+  padding: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
 }
 
 .logo-white {
-    @include logo__color-b(#ffffff);
+  @include logo__color-b(#ffffff);
 }
 
 .bottom-logo {
-    display: block;
-    margin-bottom: 20px;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .footer-info {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 address {
-    padding: 0px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: #ffffff;
+  padding: 0px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
 .contacts-list .contacts-item {
-    display: inline-block;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);;
-    margin-bottom: 12px;
-    margin-top: 12px;
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 12px;
+  margin-top: 12px;
 }
 
 .footer-contacts {
-    list-style-type: none;
-    font-size: 14px;
-    line-height: 1.7;
-    margin: 0px;
-    padding: 0px;
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0px;
+  padding: 0px;
 }
 
 .footer__socials .footer__title,
 .signup__box .footer__title {
-    display: inline-block;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-bottom: 20px;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .footer__social-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 60px;
-    padding: 0px;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+  padding: 0px;
+  gap: 10px;
 }
 
 .footer__social-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    background-color: rgba(255, 255, 255, 0.1);
-    color: #ffffff;
-    border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border-radius: 50%;
 
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: var(--timing);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing);
 
-    &:hover,
-    &:focus {
-        background-color: var(--link-hover-color);
-    }
+  &:hover,
+  &:focus {
+    background-color: var(--link-hover-color);
+  }
 }
 .footer__tablet {
-    @media screen and (min-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     display: flex;
     align-items: top;
     justify-content: center;
     gap: 165px;
-    }
+  }
 }
 // .signup__box {
 //     margin-left: 93px;
 // }
 
 .signup__form {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 
-    @media screen and (min-width: $tablet) {
-            flex-direction: column;
-        }
-        @media screen and (min-width: $desktop) {
-            flex-wrap: nowrap;
-            flex-direction: row;
-            align-items: center;
-        }
+  @media screen and (min-width: $tablet) {
+    flex-direction: column;
+  }
+  @media screen and (min-width: $desktop) {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+  }
 }
 .footer__container {
-    text-align: center;
-    @media screen and (min-width: $tablet) {
-        display: flex;
-        align-items: baseline;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 60px;
-    }
-    @media screen and (min-width: $desktop) {
-        justify-content: left;
-        gap: 93px;
-        text-align: left;
-    }
+  text-align: center;
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+  @media screen and (min-width: $desktop) {
+    justify-content: left;
+    gap: 93px;
+    text-align: left;
+  }
 }
 .footer-info,
 .footer__socials {
-    @media screen and (min-width:768px) {
-        width:  calc((100% - 3 * 60px) / 2);
-        margin-bottom: 0;
-        width: fit-content;
-
-    }
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 3 * 60px) / 2);
+    margin-bottom: 0;
+    width: fit-content;
+  }
 }
 
 .signup__input {
-    min-width: 290px;
-    height: 50px;
-    margin-bottom: 20px;
-    // padding-left: 16px;
-    @media screen and (min-width: $tablet) {
-        width: 450px;
-    }
-    @media screen and (min-width: $desktop) {
-        width: 358px;
-        margin-bottom: 0;
-        margin-right: 12px;
-        }
+  min-width: 290px;
+  height: 50px;
+  margin-bottom: 20px;
+  // padding-left: 16px;
+  @media screen and (min-width: $tablet) {
+    width: 450px;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 358px;
+    margin-bottom: 0;
+    margin-right: 12px;
+  }
 
+  color: rgba(255, 255, 255, 0.6);
+
+  //
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  outline: transparent;
+
+  &::placeholder {
     color: rgba(255, 255, 255, 0.6);
-
-    // 
-    background-color: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    outline: transparent;
-
-    &::placeholder {
-        color: rgba(255, 255, 255, 0.6);
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: calc(20/16);
-        letter-spacing: 0.03em;
-    }
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+    letter-spacing: 0.03em;
+  }
 }
 
 .signup__btn {
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 50px;
-    margin-right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  margin-right: 0;
 
-    color: #ffffff;
-    background-color: var(--link-hover-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: transparent;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--link-hover-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: transparent;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .signup__icon {
-    fill: #ffffff;
-    margin-left: 10px;
-}       
+  fill: #ffffff;
+  margin-left: 10px;
+}

@@ -1,27 +1,27 @@
 .logo {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.2;
-    letter-spacing: 0.03em; 
-    @media screen and (min-width: $desktop) {
-        font-size: 26px;
-    }
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  @media screen and (min-width: $desktop) {
+    font-size: 26px;
+  }
 
-    &:focus {
-        color: var(--link-hover-color);
-    }
+  &:focus {
+    color: var(--link-hover-color);
+  }
 }
 
 .logo__color-a {
-    color: var(--link-hover-color);
+  color: var(--link-hover-color);
 }
 
 .logo__color-b {
-    color: #000000;
+  color: #000000;
 }
 
 .logo-white {
-    @include logo__color-b(#ffffff);
-}   
+  @include logo__color-b(#ffffff);
+}
